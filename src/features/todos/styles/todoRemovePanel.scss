@@ -1,0 +1,21 @@
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blur-bg {
+    @include flex;
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: #111c;
+}
+
+.panel-main {
+    min-width: 40%;
+    position: relative;
+    padding: 3em;
+    background: #333;
+    border-radius: 15%;
+}

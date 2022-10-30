@@ -1,0 +1,39 @@
+$fontColor--light: #ccc;
+$fontColor--medium: #888;
+$fontColor--dark: #444;
+
+.todo-main {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    color: $fontColor--light;
+    background: linear-gradient(120deg, #444, #333, #444);
+}
+
+h1 {
+    border-bottom: .2em solid #ccc;
+    padding: .2em;
+}
+
+.todo-main__action-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+    border-radius: 45%;
+}
+
+.action-btn {
+    padding: .8em;
+    color: $fontColor--dark;
+
+    &[datatype="add"] {
+        background: hsl(99, 60%, 40%);
+    }
+
+    &[datatype="remove"] {
+        background: hsl(9, 60%, 40%);
+    }
+}
+
+

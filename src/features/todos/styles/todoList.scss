@@ -1,0 +1,15 @@
+.todo-list-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo-list__item {
+    font-size: 1.25rem;
+    padding: .2em;
+}
+
+.todo-list__item--small {
+    font-size: 1rem;
+    padding: .15em;
+}
